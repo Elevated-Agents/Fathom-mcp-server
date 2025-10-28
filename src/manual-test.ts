@@ -24,7 +24,7 @@ server.stdout.on("data", (data) => {
 				const response = JSON.parse(line);
 				console.log("\n📨 Server Response:");
 				console.log(JSON.stringify(response, null, 2));
-			} catch (e) {
+			} catch (_e) {
 				console.log("Raw:", line);
 			}
 		}
