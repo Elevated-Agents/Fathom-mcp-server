@@ -29,6 +29,9 @@ npm run dev
 # Run tests
 npm test
 
+# Run manual test (demonstrates server functionality)
+npx tsx src/manual-test.ts
+
 # Lint code
 npm run lint
 
